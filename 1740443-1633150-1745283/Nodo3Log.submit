@@ -1,0 +1,48 @@
+000 (176.000.000) 2022-08-03 23:00:11 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+040 (176.000.000) 2022-08-03 23:00:17 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot2_21736_ba6d_172>
+...
+007 (176.000.000) 2022-08-03 23:00:17 Shadow exception!
+	Error from slot2@Laboratorio: SHADOW at 127.0.0.1 failed to send file(s) to <127.0.0.1:11737>: error reading from /home/oem/Descargas/MafeJhonPorras/header.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <127.0.0.1:9618>
+	0  -  Run Bytes Sent By Job
+	3965860  -  Run Bytes Received By Job
+...
+012 (176.000.000) 2022-08-03 23:00:17 Job was held.
+	Error from slot2@Laboratorio: SHADOW at 127.0.0.1 failed to send file(s) to <127.0.0.1:11737>: error reading from /home/oem/Descargas/MafeJhonPorras/header.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <127.0.0.1:9618>
+	Code 13 Subcode 2
+...
+000 (178.000.000) 2022-08-03 23:00:46 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+040 (178.000.000) 2022-08-03 23:00:55 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot2_21736_ba6d_174>
+...
+040 (178.000.000) 2022-08-03 23:00:55 Finished transferring input files
+...
+001 (178.000.000) 2022-08-03 23:00:56 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+006 (178.000.000) 2022-08-03 23:00:56 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (178.000.000) 2022-08-03 23:00:56 Started transferring output files
+...
+040 (178.000.000) 2022-08-03 23:00:56 Finished transferring output files
+...
+005 (178.000.000) 2022-08-03 23:00:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3965924  -  Run Bytes Sent By Job
+	3966003  -  Run Bytes Received By Job
+	3965924  -  Total Bytes Sent By Job
+	3966003  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     7759     4000 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T04:00:56Z with exit-code 0.
+...

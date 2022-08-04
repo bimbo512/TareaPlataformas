@@ -1,0 +1,102 @@
+000 (172.000.000) 2022-08-03 22:58:17 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+000 (173.000.000) 2022-08-03 22:58:17 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+000 (174.000.000) 2022-08-03 22:58:17 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+040 (172.000.000) 2022-08-03 22:58:26 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot1_21736_ba6d_168>
+...
+040 (173.000.000) 2022-08-03 22:58:26 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot2_21736_ba6d_169>
+...
+040 (174.000.000) 2022-08-03 22:58:26 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot3_21736_ba6d_170>
+...
+040 (172.000.000) 2022-08-03 22:58:26 Finished transferring input files
+...
+040 (174.000.000) 2022-08-03 22:58:26 Finished transferring input files
+...
+040 (173.000.000) 2022-08-03 22:58:26 Finished transferring input files
+...
+001 (172.000.000) 2022-08-03 22:58:28 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+001 (173.000.000) 2022-08-03 22:58:28 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+006 (172.000.000) 2022-08-03 22:58:28 Image size of job updated: 47
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+001 (174.000.000) 2022-08-03 22:58:28 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+006 (173.000.000) 2022-08-03 22:58:28 Image size of job updated: 47
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (172.000.000) 2022-08-03 22:58:28 Started transferring output files
+...
+040 (173.000.000) 2022-08-03 22:58:28 Started transferring output files
+...
+006 (174.000.000) 2022-08-03 22:58:28 Image size of job updated: 19992
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (172.000.000) 2022-08-03 22:58:28 Finished transferring output files
+...
+040 (173.000.000) 2022-08-03 22:58:28 Finished transferring output files
+...
+040 (174.000.000) 2022-08-03 22:58:28 Started transferring output files
+...
+040 (174.000.000) 2022-08-03 22:58:29 Finished transferring output files
+...
+005 (172.000.000) 2022-08-03 22:58:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6  -  Run Bytes Sent By Job
+	4021761  -  Run Bytes Received By Job
+	6  -  Total Bytes Sent By Job
+	4021761  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3936     4000 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T03:58:28Z with exit-code 0.
+...
+005 (174.000.000) 2022-08-03 22:58:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3965781  -  Run Bytes Sent By Job
+	3974366  -  Run Bytes Received By Job
+	3965781  -  Total Bytes Sent By Job
+	3974366  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3882     4000 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T03:58:28Z with exit-code 0.
+...
+005 (173.000.000) 2022-08-03 22:58:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5  -  Run Bytes Sent By Job
+	3974366  -  Run Bytes Received By Job
+	5  -  Total Bytes Sent By Job
+	3974366  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     3890     4000 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T03:58:28Z with exit-code 0.
+...

@@ -1,0 +1,17 @@
+#ESte nodo se encarga de descargar un documento del url http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
+# guardandolo en un archivo .csv llamado datos-adultos-us.csv
+# uso el comando wget -O (nombreArchivo) (url)
+
+executable = /bin/wget
+arguments = -O datos-adultos-us.csv http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
+
+output     = outputNodo1.submit
+error      = errorNodo1.submit
+log        = logNodo1.submit
+
+should_transfer_files=yes
+
+queue
+
+
+

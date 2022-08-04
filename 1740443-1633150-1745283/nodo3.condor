@@ -1,0 +1,23 @@
+#ESte nodo se encarga de poner encabezados al archivo datos-adultos-us.csv
+#
+
+executable=nodo3Headers.sh
+output=header.csv
+error=errorNOdo3.submit
+log=logNodo3.submit
+
+should_transfer_files=yes
+
+
+queue
+
+
+should_transfer_files=yes
+transfer_input_files = header.csv, datos-adultos-us.csv 
+executable=nodo3Cat.sh
+error=errorNodo3Cat.submit
+log=Nodo3Log.submit
+
+
+
+queue

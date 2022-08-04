@@ -1,0 +1,14 @@
+#ESte nodo se encarga de mostrar atributos “age”, “education”, “education_num”, “race”, “income”
+#
+
+executable=nodo4.sh
+
+input=datos-adultos-us2.csv
+output=reporte_1.txt
+error=nodo4.error
+log=nodo4.log
+
+should_transfer_files=yes
+
+queue
+

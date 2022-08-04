@@ -1,0 +1,13 @@
+#ESte nodo se encarga de mostrar atributos “age”, "education”, “marital”, "country"
+#
+
+executable=nodo6.sh
+
+input=datos-adultos-us2.csv
+output=reporte_3.txt
+error=nodo6.error
+log=nodo6.log
+
+should_transfer_files=yes
+
+queue

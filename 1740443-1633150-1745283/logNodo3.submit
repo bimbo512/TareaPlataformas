@@ -1,0 +1,68 @@
+000 (175.000.000) 2022-08-03 23:00:11 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+040 (175.000.000) 2022-08-03 23:00:17 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot1_21736_ba6d_171>
+...
+040 (175.000.000) 2022-08-03 23:00:17 Finished transferring input files
+...
+001 (175.000.000) 2022-08-03 23:00:18 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+006 (175.000.000) 2022-08-03 23:00:19 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (175.000.000) 2022-08-03 23:00:19 Started transferring output files
+...
+040 (175.000.000) 2022-08-03 23:00:19 Finished transferring output files
+...
+005 (175.000.000) 2022-08-03 23:00:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	143  -  Run Bytes Sent By Job
+	170  -  Run Bytes Received By Job
+	143  -  Total Bytes Sent By Job
+	170  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :        9        1 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T04:00:19Z with exit-code 0.
+...
+000 (177.000.000) 2022-08-03 23:00:46 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=schedd_21565_5ff1>
+...
+040 (177.000.000) 2022-08-03 23:00:55 Started transferring input files
+	Transferring to host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=slot1_21736_ba6d_173>
+...
+040 (177.000.000) 2022-08-03 23:00:55 Finished transferring input files
+...
+001 (177.000.000) 2022-08-03 23:00:56 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618&alias=Laboratorio&noUDP&sock=startd_21565_5ff1>
+...
+006 (177.000.000) 2022-08-03 23:00:56 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (177.000.000) 2022-08-03 23:00:56 Started transferring output files
+...
+040 (177.000.000) 2022-08-03 23:00:56 Finished transferring output files
+...
+005 (177.000.000) 2022-08-03 23:00:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	143  -  Run Bytes Sent By Job
+	170  -  Run Bytes Received By Job
+	143  -  Total Bytes Sent By Job
+	170  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       14        1 110514664 
+	   Memory (MB)          :        0        1      1957 
+
+	Job terminated of its own accord at 2022-08-04T04:00:56Z with exit-code 0.
+...

@@ -1,0 +1,13 @@
+#ESte nodo se encarga de mostrar atributos “age”, “race”, “income”
+#
+
+executable=nodo5.sh
+
+input=datos-adultos-us2.csv
+output=reporte_2.txt
+error=nodo5.error
+log=nodo5.log
+
+should_transfer_files=yes
+
+queue

@@ -1,0 +1,40 @@
+#Este nodo se encarga de guardar informaciòn en el archivo estadistica.csv
+# SE guarda el numero de registros y registros incompletos del archivo datos-adultos-us.csv
+
+
+executable= /bin/wc
+arguments= -l
+
+input=datos-adultos-us.csv
+output=registros.txt
+error=errorNodo2.submit
+log=logNodo2.submit
+
+should_transfer_files=yes
+
+queue
+
+executable=grepNodo2.sh
+output=registrosIncompletos.txt
+error=errorgrepNodo2.submit
+
+should_transfer_files=yes
+
+
+queue
+
+input=datos-adultos-us.csv
+executable=sedNodo2.sh
+
+
+
+should_transfer_files=yes
+
+queue
+
+
+
+
+
+
+
